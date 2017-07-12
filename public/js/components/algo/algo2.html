@@ -1,0 +1,21 @@
+<!-- Display blogItemMenu component (see blogItemMenu.js ) and bind properties with all functions  -->
+<blog-item-menu ng-if="$ctrl.editable" user="$ctrl.user" edit-mode="$ctrl.editMode" on-undo="$ctrl.undo()" on-edit="$ctrl.editMode = !$ctrl.editMode"
+    on-delete="$ctrl.delete()" on-save="$ctrl.save()" />
+<div class="col s12 m4">
+    <div class="card">
+
+        <!-- In general if it's not editable it's when this component is used in the blogList component -->
+        <div class="card-content">
+        <a>this.friend = (this.friends) => {<br>
+        bestFriends = [];<br>
+        for (let i = 0; i < friends.length; i++) {<br>
+        if (this.friends[i].length == 4) {<br>
+        bestFriends.push(this.friends[i]);<br>
+        }<br> 
+        }<br>
+        return bestFriends;<br>
+        }<br></a>
+        </div>
+
+    </div>
+</div>

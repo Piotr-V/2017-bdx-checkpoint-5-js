@@ -37,4 +37,9 @@ export default ['$stateProvider', '$urlRouterProvider', '$locationProvider', ($s
             url: '/algo1',
             component: 'algo1',
         })
+
+        .state('algo2', {
+            url: '/algo2',
+            component: 'algo2',
+        })
 }]
