@@ -9,7 +9,7 @@ import angular from 'angular'
 import angularUIRouter from 'angular-ui-router'
 import angularCookies from 'angular-cookies'
 import angularMaterialize from 'angular-materialize'
-
+import angularMomentjs from 'angular-momentjs'
 import config from './config/config.md'
 import services from './services/services.md'
 import common from './components/common/common.md'
@@ -23,6 +23,7 @@ angular.module('app', [
     angularUIRouter,
     angularCookies,
     angularMaterialize,
+    angularMomentjs,
     config,
     services,
     common,
