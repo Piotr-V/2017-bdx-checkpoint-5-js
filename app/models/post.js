@@ -11,7 +11,8 @@ module.exports = mongoose.model('Post', new mongoose.Schema({
     },
     content: {
         type: String
-    }
-}, {
-    timestamps: true
+    },
+    date: {
+        type: Date
+    },
 }))

@@ -1,5 +1,5 @@
-let navbar = {
-    templateUrl: 'js/components/common/navbar.html',
+let algo1 = {
+    templateUrl: 'js/components/algo/algo1.html',
     controller: ['UsersService', '$state', function(UsersService, $state) {
         'use strict'
         angular.extend(this, {
@@ -23,4 +23,4 @@ let navbar = {
     }]
 }
 
-export default navbar
+export default algo1
