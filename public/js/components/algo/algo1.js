@@ -21,15 +21,15 @@ let algo1 = {
 
         });
         
-        // this.friend = (this.friends) => {
-        // bestFriends = [];
-        //     for (let i = 0; i < friends.length; i++) {
-        //         if (this.friends[i].length == 4) {
-        //         bestFriends.push(this.friends[i]);
-        //         }       
-        //     }
-        // return bestFriends;
-        // }   
+        function friend (friends) {
+        bestFriends = [];
+            for (let i = 0; i < this.friends.length; i++) {
+                if (this.friends[i].length == 4) {
+                bestFriends.push(this.friends[i]);
+                }       
+            }
+        return bestFriends;
+        }   
     }]
 }
 
